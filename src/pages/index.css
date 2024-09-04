@@ -1,0 +1,21 @@
+@import url('../vendor/reset.css');
+@import url('../vendor/globals/globals.css');
+
+.app {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.test {
+  font-family: var(--fonts-jetbrains-regular);
+  font-size: 34px;
+}
